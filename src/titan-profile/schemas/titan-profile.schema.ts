@@ -8,4 +8,9 @@ export class TitanProfile {
     _id: false,
   })
   profile: Profile;
+  @Prop({
+    type: String,
+    required: true,
+  })
+  userHash: string;
 }

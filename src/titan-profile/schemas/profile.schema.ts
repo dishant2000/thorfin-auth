@@ -1,6 +1,11 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Gender } from '../enums/profile.enum';
 import { Address } from './address.schema';
+/**
+ * todo : device token to be added
+ * user identification :addhar , pan do we need to add ?
+ *
+ */
 @Schema()
 export class Profile {
   @Prop()
