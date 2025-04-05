@@ -1,7 +1,7 @@
 export enum Gender {
-  MALE = 'MALE',
-  FEMALE = 'FEMALE',
-  OTHER = 'OTHER',
+  Male = 'MALE',
+  Female = 'FEMALE',
+  Other = 'OTHER',
 }
 
 export enum AddressType {
