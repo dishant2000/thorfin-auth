@@ -15,6 +15,7 @@ export class Prm {
 }
 
 export const prmSchema = SchemaFactory.createForClass(Prm);
+
 @Schema()
 export class Application {
   @Prop({
@@ -29,3 +30,5 @@ export class Application {
   })
   defaultPrm?: Prm;
 }
+
+export const ApplicationSchema = SchemaFactory.createForClass(Application);
