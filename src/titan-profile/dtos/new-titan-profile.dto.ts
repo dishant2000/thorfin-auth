@@ -36,4 +36,12 @@ export class NewTitanProfileDto {
 
   @Type(() => ApplicationDto)
   application: ApplicationDto;
+
+  @IsString()
+  @IsOptional()
+  password?: string;
+
+  @IsString()
+  @IsOptional()
+  userHash?: string;
 }
