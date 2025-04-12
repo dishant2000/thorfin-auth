@@ -20,7 +20,7 @@ export class TitanProfileService {
     return await this.titanProfileRepo.createTitanProfile(newTitanProfileDto);
   }
 
-  async getTitanProfilE(userHash: string) {
+  async getTitanProfile(userHash: string) {
     return await this.titanProfileRepo.getTitanProfile(userHash);
   }
   async isUserHashPresent(userHash: string) {
